@@ -31,7 +31,7 @@ public class Base {
 	String browserName = prop.getProperty("browser");
 	//when we pass the browser name from mvn i.e mvn test -Dbrowser=firefox
 	//String browserName = System.getProperty("browser");
-	
+	int a = 0;
 	String url = prop.getProperty("url");
 	
 	if(browserName.contains("chrome")) 
