@@ -32,6 +32,7 @@ public class ValidateHomePage extends Base {
 		
 		//There are two page objects we have initiated 
 		//we are sure that landing page	will navigate next to login page 
+		//passing that same driver to LandingPage method
 		LandingPage l = new LandingPage(driver);
 		LoginPage lp = l.getLogin();
 		//l.getLogin().click();

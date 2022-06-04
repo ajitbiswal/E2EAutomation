@@ -1,4 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.289 s - in TestSuite
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 73.205 s <<< FAILURE! - in TestSuite
+Academy.ValidateHomePage.ValidateLogIn[ajit1.biswal@gmail.com, 123](1)  Time elapsed: 18.868 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <a href="https://rahulshettyacademy.com/sign_in/"> is not clickable at point (1242,16) because another element <div class="listbuilder-popup-content"> obscures it
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-CSB2KRLH', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_265'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201012085804, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 12608, moz:profile: C:\Users\Ajit\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bfaa42b1-53ff-42e4-89ad-ea760d15edf5
+	at Academy.ValidateHomePage.ValidateLogIn(ValidateHomePage.java:37)
+
+Academy.ValidateHomePage.ValidateLogIn[ajit1.biswal@gmail.com, 123](2)  Time elapsed: 3.146 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <a href="https://rahulshettyacademy.com/sign_in/"> is not clickable at point (1242,16) because another element <div class="listbuilder-popup-content"> obscures it
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-CSB2KRLH', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_265'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201012085804, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 2788, moz:profile: C:\Users\Ajit\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 51766302-f1ce-4631-9e1f-e9b8e1e3dd59
+	at Academy.ValidateHomePage.ValidateLogIn(ValidateHomePage.java:37)
+

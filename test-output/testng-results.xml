@@ -1,35 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="1" failed="0" skipped="0">
+<testng-results total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-25T01:29:10Z" name="Suite" finished-at="2020-12-25T01:29:22Z" duration-ms="11998">
+  <suite started-at="2022-05-28T04:54:54Z" name="Suite" finished-at="2022-05-28T04:55:35Z" duration-ms="41657">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@4716be8b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2020-12-25T01:29:10Z" name="Validate User Login" finished-at="2020-12-25T01:29:22Z" duration-ms="11998">
-      <class name="cucumberOptions.TestRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:cucumberOptions.TestRunner@4716be8b]" started-at="2020-12-25T06:59:10Z" name="setUpClass" finished-at="2020-12-25T06:59:10Z" duration-ms="346" status="PASS">
+    <test started-at="2022-05-28T04:54:54Z" name="Validate Home Page" finished-at="2022-05-28T04:55:13Z" duration-ms="18968">
+      <class name="Academy.ValidateHomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.ValidateHomePage@182b435b]" started-at="2022-05-28T10:24:54Z" name="initialize" finished-at="2022-05-28T10:24:58Z" duration-ms="4616" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@4716be8b]" started-at="2020-12-25T06:59:10Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-12-25T06:59:22Z" duration-ms="11507" status="PASS">
+        </test-method> <!-- initialize -->
+        <test-method signature="ValidateLogIn(java.lang.String, java.lang.String)[pri:0, instance:Academy.ValidateHomePage@182b435b]" started-at="2022-05-28T10:24:58Z" name="ValidateLogIn" data-provider="getData" finished-at="2022-05-28T10:25:09Z" duration-ms="10738" status="FAIL">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Login into Application]]>
+                <![CDATA[ajit1.biswal@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
               </value>
             </param>
           </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[Element <a href="https://rahulshettyacademy.com/sign_in/"> is not clickable at point (1242,16) because another element <div class="listbuilder-popup-content"> obscures it
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-CSB2KRLH', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201012085804, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 21508, moz:profile: C:\Users\Ajit\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d782c5ff-27f2-4a54-9f9c-0899392177d3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <a href="https://rahulshettyacademy.com/sign_in/"> is not clickable at point (1242,16) because another element <div class="listbuilder-popup-content"> obscures it
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-CSB2KRLH', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '14.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201012085804, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 21508, moz:profile: C:\Users\Ajit\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d782c5ff-27f2-4a54-9f9c-0899392177d3
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at pageObjects.LandingPage.getLogin(LandingPage.java:32)
+	at Academy.ValidateHomePage.ValidateLogIn(ValidateHomePage.java:37)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- feature -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@4716be8b]" started-at="2020-12-25T06:59:22Z" name="tearDownClass" finished-at="2020-12-25T06:59:22Z" duration-ms="7" status="PASS">
+        </test-method> <!-- ValidateLogIn -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.ValidateHomePage@182b435b]" started-at="2022-05-28T10:25:10Z" name="teardown" finished-at="2022-05-28T10:25:13Z" duration-ms="2710" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- cucumberOptions.TestRunner -->
-    </test> <!-- Validate User Login -->
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.ValidateHomePage -->
+    </test> <!-- Validate Home Page -->
+    <test started-at="2022-05-28T04:54:54Z" name="Validate Navigation Bar" finished-at="2022-05-28T04:55:19Z" duration-ms="25633">
+      <class name="Academy.ValidateNavigationBar">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.ValidateNavigationBar@5af5def9]" started-at="2022-05-28T10:24:54Z" name="initialize" finished-at="2022-05-28T10:25:17Z" duration-ms="22919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:Academy.ValidateNavigationBar@5af5def9]" started-at="2022-05-28T10:25:17Z" name="basePageNavigation" finished-at="2022-05-28T10:25:17Z" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.ValidateNavigationBar@5af5def9]" started-at="2022-05-28T10:25:17Z" name="teardown" finished-at="2022-05-28T10:25:19Z" duration-ms="2661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.ValidateNavigationBar -->
+    </test> <!-- Validate Navigation Bar -->
+    <test started-at="2022-05-28T04:54:54Z" name="Validate title" finished-at="2022-05-28T04:55:35Z" duration-ms="41656">
+      <class name="Academy.ValidateTitle">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Academy.ValidateTitle@70f43b45]" started-at="2022-05-28T10:24:54Z" name="initialize" finished-at="2022-05-28T10:25:33Z" duration-ms="38978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateAppTitle()[pri:0, instance:Academy.ValidateTitle@70f43b45]" started-at="2022-05-28T10:25:33Z" name="validateAppTitle" finished-at="2022-05-28T10:25:33Z" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAppTitle -->
+        <test-method signature="validateHeader()[pri:0, instance:Academy.ValidateTitle@70f43b45]" started-at="2022-05-28T10:25:33Z" name="validateHeader" finished-at="2022-05-28T10:25:33Z" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeader -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.ValidateTitle@70f43b45]" started-at="2022-05-28T10:25:33Z" name="teardown" finished-at="2022-05-28T10:25:35Z" duration-ms="2632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.ValidateTitle -->
+    </test> <!-- Validate title -->
   </suite> <!-- Suite -->
 </testng-results>

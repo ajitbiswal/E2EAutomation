@@ -20,7 +20,7 @@ public class Base {
 	public WebDriver driver;
 	public Properties prop;
 	
-	//This method is returning webdriver and providing to all the test cases
+	//This1 method is returning webdriver and providing to all the test cases
 	public WebDriver initializeDriver() throws IOException
 	{
 	FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\resources\\data.properties");

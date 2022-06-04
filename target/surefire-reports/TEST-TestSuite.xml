@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="26.289" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="73.205" tests="8" errors="0" skipped="0" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="java.specification.version" value="1.8"/>
-    <property name="webdriver.chrome.driver" value="D:\workspace\E2EProject\src\main\java\resources\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="D:\workspace\E2EProject\target\test-classes;D:\workspace\E2EProject\target\classes;C:\Users\Ajit\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Ajit\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Ajit\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\Ajit\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\Ajit\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\Ajit\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\Ajit\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\Ajit\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\Ajit\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\Ajit\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\Ajit\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\Ajit\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\Ajit\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\Ajit\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Ajit\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Ajit\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Ajit\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\Ajit\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\Ajit\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Ajit\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Ajit\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Ajit\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Ajit\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Ajit\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Ajit\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Ajit\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\Ajit\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\Ajit\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\Ajit\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Ajit\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\Ajit\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\Ajit\.m2\repository\com\lmax\disruptor\3.4.2\disruptor-3.4.2.jar;C:\Users\Ajit\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;C:\Users\Ajit\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Ajit\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Ajit\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Ajit\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Ajit\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Ajit\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\Ajit\.m2\repository\com\aventstack\extentreports\5.0.4\extentreports-5.0.4.jar;C:\Users\Ajit\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Ajit\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Ajit\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Ajit\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Ajit\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\Ajit\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\Ajit\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
@@ -19,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="D:\Amazon Corretto\jdk1.8.0_265\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Ajit\AppData\Local\Temp\surefire2498696922283234373\surefirebooter5992868200706933272.jar C:\Users\Ajit\AppData\Local\Temp\surefire2498696922283234373 2021-08-05T21-18-17_045-jvmRun1 surefire5051600398192541315tmp surefire_04960327090664409054tmp"/>
+    <property name="sun.java.command" value="C:\Users\Ajit\AppData\Local\Temp\surefire7816130145001031431\surefirebooter3613775992205261641.jar C:\Users\Ajit\AppData\Local\Temp\surefire7816130145001031431 2022-05-28T10-30-38_363-jvmRun1 surefire1845838390308496442tmp surefire_05550236256875820816tmp"/>
     <property name="surefire.test.class.path" value="D:\workspace\E2EProject\target\test-classes;D:\workspace\E2EProject\target\classes;C:\Users\Ajit\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Ajit\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Ajit\.m2\repository\org\seleniumhq\selenium\selenium-java\3.11.0\selenium-java-3.11.0.jar;C:\Users\Ajit\.m2\repository\org\seleniumhq\selenium\selenium-api\3.11.0\selenium-api-3.11.0.jar;C:\Users\Ajit\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.11.0\selenium-chrome-driver-3.11.0.jar;C:\Users\Ajit\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.11.0\selenium-edge-driver-3.11.0.jar;C:\Users\Ajit\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.11.0\selenium-firefox-driver-3.11.0.jar;C:\Users\Ajit\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.11.0\selenium-ie-driver-3.11.0.jar;C:\Users\Ajit\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.11.0\selenium-opera-driver-3.11.0.jar;C:\Users\Ajit\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.11.0\selenium-remote-driver-3.11.0.jar;C:\Users\Ajit\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.11.0\selenium-safari-driver-3.11.0.jar;C:\Users\Ajit\.m2\repository\org\seleniumhq\selenium\selenium-support\3.11.0\selenium-support-3.11.0.jar;C:\Users\Ajit\.m2\repository\net\bytebuddy\byte-buddy\1.7.9\byte-buddy-1.7.9.jar;C:\Users\Ajit\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Ajit\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Ajit\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Ajit\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\Ajit\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\Ajit\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Ajit\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Ajit\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Ajit\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Ajit\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Ajit\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Ajit\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Ajit\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\Ajit\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\Ajit\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\Ajit\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Ajit\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\Ajit\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\Ajit\.m2\repository\com\lmax\disruptor\3.4.2\disruptor-3.4.2.jar;C:\Users\Ajit\.m2\repository\info\cukes\cucumber-testng\1.2.5\cucumber-testng-1.2.5.jar;C:\Users\Ajit\.m2\repository\info\cukes\cucumber-core\1.2.5\cucumber-core-1.2.5.jar;C:\Users\Ajit\.m2\repository\info\cukes\cucumber-html\0.2.3\cucumber-html-0.2.3.jar;C:\Users\Ajit\.m2\repository\info\cukes\gherkin\2.12.2\gherkin-2.12.2.jar;C:\Users\Ajit\.m2\repository\info\cukes\cucumber-java\1.2.5\cucumber-java-1.2.5.jar;C:\Users\Ajit\.m2\repository\info\cukes\cucumber-jvm-deps\1.0.5\cucumber-jvm-deps-1.0.5.jar;C:\Users\Ajit\.m2\repository\info\cukes\cucumber-junit\1.2.5\cucumber-junit-1.2.5.jar;C:\Users\Ajit\.m2\repository\com\aventstack\extentreports\5.0.4\extentreports-5.0.4.jar;C:\Users\Ajit\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\Ajit\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\Ajit\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\Ajit\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\Ajit\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.3\log4j-api-2.13.3.jar;C:\Users\Ajit\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.3\log4j-core-2.13.3.jar;C:\Users\Ajit\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Ajit"/>
@@ -32,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Ajit\AppData\Local\Temp\surefire2498696922283234373\surefirebooter5992868200706933272.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Ajit\AppData\Local\Temp\surefire7816130145001031431\surefirebooter3613775992205261641.jar"/>
     <property name="sun.boot.class.path" value="D:\Amazon Corretto\jdk1.8.0_265\jre\lib\resources.jar;D:\Amazon Corretto\jdk1.8.0_265\jre\lib\rt.jar;D:\Amazon Corretto\jdk1.8.0_265\jre\lib\sunrsasign.jar;D:\Amazon Corretto\jdk1.8.0_265\jre\lib\jsse.jar;D:\Amazon Corretto\jdk1.8.0_265\jre\lib\jce.jar;D:\Amazon Corretto\jdk1.8.0_265\jre\lib\charsets.jar;D:\Amazon Corretto\jdk1.8.0_265\jre\lib\jfr.jar;D:\Amazon Corretto\jdk1.8.0_265\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -43,7 +42,6 @@
     <property name="java.endorsed.dirs" value="D:\Amazon Corretto\jdk1.8.0_265\jre\lib\endorsed"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="browser" value="chrome"/>
     <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\Ajit\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-8/issues/"/>
@@ -51,10 +49,11 @@
     <property name="java.version" value="1.8.0_265"/>
     <property name="user.dir" value="D:\workspace\E2EProject"/>
     <property name="os.arch" value="amd64"/>
+    <property name="webdriver.gecko.driver" value="D:\workspace\E2EProject\src\main\java\resources\geckodriver.exe"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="D:\Amazon Corretto\jdk1.8.0_265\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Amazon Corretto\jdk1.8.0_265/bin;D:\Amazon Corretto\jdk1.8.0_265/bin;D:\Amazon Corretto\jdk1.8.0_265\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-14.0.2\bin;D:\Git\cmd;C:\strawberry\c\bin;C:\strawberry\perl\bin;D:\nodejs\;D:\nodejs\node_modules\npm\bin;D:\Amazon\AWSCLIV2\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;D:\Amazon Corretto\jdk1.8.0_265\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-14.0.2\bin;C:\Users\Ajit\AppData\Local\Microsoft\WindowsApps;c:\Program Files\tagui\src;d:\tagui\src;D:\maven\apache-maven-3.6.3\bin;;C:\Users\Ajit\AppData\Local\Microsoft\WindowsApps;C:\Users\Ajit\AppData\Roaming\npm;."/>
+    <property name="java.library.path" value="D:\Amazon Corretto\jdk1.8.0_265\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python310\Scripts\;C:\Python310\;D:\Amazon Corretto\jdk1.8.0_265\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-14.0.2\bin;D:\Git\cmd;C:\strawberry\c\bin;C:\strawberry\perl\bin;D:\nodejs\node_modules\npm\bin;D:\Amazon\AWSCLIV2\;D:\TortoiseGit\bin;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Ajit\AppData\Local\Android\Sdk\tools;C:\Users\Ajit\AppData\Local\Android\Sdk\tools\bin;C:\Users\Ajit\AppData\Local\Android\Sdk\platform-tools;D:\nodejs\node_modules\npm\bin;D:\PuTTY\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;D:\Amazon Corretto\jdk1.8.0_265\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-14.0.2\bin;C:\Users\Ajit\AppData\Local\Microsoft\WindowsApps;c:\Program Files\tagui\src;d:\tagui\src;D:\maven\apache-maven-3.6.3\bin;C:\Users\Ajit\AppData\Local\Microsoft\WindowsApps;C:\Users\Ajit\AppData\Local\Android\Sdk\platform-tools;C:\Users\Ajit\AppData\Roaming\npm;D:\maven\apache-maven-3.6.3\bin;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Amazon.com Inc."/>
     <property name="java.vm.version" value="25.265-b01"/>
@@ -62,52 +61,155 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="basePageNavigation" classname="Academy.ValidateNavigationBar" time="0.072">
-    <system-err><![CDATA[SSStttaaarrrtttiiinnnggg   CCChhhrorrmooemmDeerDDirrveiirvv eerr  999222...000...444555111555...44433 3 ( (8(8c8cc666111bbb777ee2e292989988f992ff9229990990d0d4d4224ff288f5985c59a9cc7ca1ca37c119711331371799811733c7ce7787-78rc7ecfcesc-/rebre-afrnsec/fh-bsh/reanbcrhaa-dhnsec/ah4d-5hs1/e5@a4{d5s1#/534@05{61#}53)@ 0{o6n#} 3)p0o r6to }n38 )8p 5oorn
-t O np5lo9y2r 5tl o
-1cOa2nl5l 1yc 3olno
-nceOaclnt licyo nolsn oancraee lca tllicowooendns.n 
-Pealecratseei  asoelnelso whe dta.tr
-pePs l:ae/l/aclshoreow mesedde.ri
-evP lheetarts.ceh psrseoe:m /i/huctmht.rpoosrm:ge//d/srcehicvruerorim.teycd-hrcrioovnmesirid.uercmaht.rioomoringums/. osrefgc/ousrre icstuuyrg-icgtoyen-ssctioidneosrniasdt eioornn ask tefieoorpn issn uggf goCersh trsiooumngesgD erosinvt ekioernes  posinangf e k.eCeh
-prionmge CDhrroimveDerri vsearf sea.fe
-.
-CCChhhrrrooommmeeeDDDrirrviiervv eewrras   wwstaaassrt  edss tstuaaccrertteed ds sucssucfecuclselssysf.fuu
-lllly.y.
-
-Aug 05, 2021 9:18:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+  <testcase name="ValidateLogIn[ajit1.biswal@gmail.com, 123](1)" classname="Academy.ValidateHomePage" time="18.868">
+    <failure message="Element &lt;a href=&quot;https://rahulshettyacademy.com/sign_in/&quot;&gt; is not clickable at point (1242,16) because another element &lt;div class=&quot;listbuilder-popup-content&quot;&gt; obscures it&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;LAPTOP-CSB2KRLH&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_265&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201012085804, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 12608, moz:profile: C:\Users\Ajit\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: bfaa42b1-53ff-42e4-89ad-ea760d15edf5" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <a href="https://rahulshettyacademy.com/sign_in/"> is not clickable at point (1242,16) because another element <div class="listbuilder-popup-content"> obscures it
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-CSB2KRLH', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_265'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201012085804, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 12608, moz:profile: C:\Users\Ajit\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bfaa42b1-53ff-42e4-89ad-ea760d15edf5
+	at Academy.ValidateHomePage.ValidateLogIn(ValidateHomePage.java:37)
+]]></failure>
+    <system-err><![CDATA[11166655533377711140445004554220099		momzorz4urnu2nnenre:r0::r9:u	rnumnnoenzrer	rI	uINnNFnFOeO	r	R:Ruun:nnnriiunnnggn  eccroo	mmImmaNnaFdnO:d	 R:"u Cn":nC\:i\\nP\grP orcgoorgmarmmaa mnF diF:il le"eCss:\\\\\\MMPoorzzoiiglrlallmaa   FFFiiilrreesef\fo\oxM\x\\ofziirlelfa\o xfF.eiixrreee"f fo"ox-x.m\ea\xrfieio"nr e"et-ftmeoaxr".i eo"n-eftorteegx"r oe"u"-nf do""r -e"mg-arnrooiunod-n"e rt"e-tmneoo"t- er""e- mf"oot-rep"er go"rf-oipulrneod"f" i" lC"e:"-\n \o"UCs-:er\re\smU\os\tAeejri"st \\"\\-AApjprpiotDf\ai\tleaA"\\L oc"aCl:\\\\TUesmepr\sp\p\\DrAajutisatt\\_\\LAmopocpzaDplar\o\tTafe\impl\e\\gr6LuwoshctFa_Qlm"\o
+\zTpermopfi\l\erJHuKsxtu_gm"oz
+profileDHXwQc"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1653714061447	Marionette	INFO	Listening on port 59865
+1653714061639	Marionette	INFO	Listening on port 59866
+1653714062005	Marionette	WARN	TLS certificate errors will be ignored for this session
+1653714062026	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 28, 2022 10:31:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Aug 05, 2021 9:18:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+May 28, 2022 10:31:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Aug 05, 2021 9:18:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="basePageNavigation" classname="Academy.ValidateNavigationBar" time="0.313"/>
-  <testcase name="validateAppTitle" classname="Academy.ValidateTitle" time="0.032"/>
-  <testcase name="validateAppTitle" classname="Academy.ValidateTitle" time="0.036">
-    <system-err><![CDATA[SSttaSarrtttaiirnntggi  nCCg hhCrrhoormmoeemDeDrDririvivevere rr  99922.2.0.0..44515051.54..34 (84c56115b.34 73(e289c (86819bcf27e6921998b90f72de9492290fd884952f9f2c8a95c9907cd1a34c1279f1813351799c71a83c77c77c18e37-1c9rc1eef3-s7r/7eb8fr7sca/ncbecranch-hhea-d-hse/ra4ed5s1/f54s@5/{1b#5r3@0a{6n#}c3h0)-6 h}o)en a odpnso /rp4to5 r13t59 @27{2#2133806
-
-}OO)nnl lyo yn l lopooccraalt l 2 c8co9on1nn8neeccttioi
-noOsnn sla yra erl eo acallall oclowowenedn.dec.
-tP
-ilPoelnaessa esa erse e seea elhl thtotpwtspe:sd/:.//c/
-hPcrhloremoaesmdeer disrveiever e.rhct.tchpsr:om//ihucrmho.rmoomrged/rsievcueirr.iutcmyh.-roocrmogin/ussimed.ceourrraittiyo-ncso nfsoird eratisogun/gssg eefcsuotrr iistoyun-gsgc oeonsn stkiidoensra toionn keeping ChromeDriver safe.
-s for suggestions on keeping CehreopmienDgr iCvherro mseaDfrei.ve
-r safe.
-ChromeDriver was started successfully.
-ChromeDriver was starCtherdo mseuDcrcievsesr fwualsl ys.ta
-rted successfully.
-Aug 05, 2021 9:18:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Aug 05, 2021 9:18:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Aug 05, 2021 9:18:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+1653714062470	Marionette	INFO	Listening on port 59864
+1653714062637	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 28, 2022 10:31:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>
-  <testcase name="validateHeader" classname="Academy.ValidateTitle" time="0.04"/>
-  <testcase name="validateHeader" classname="Academy.ValidateTitle" time="0.045"/>
-  <testcase name="ValidateLogIn[ajit1.biswal@gmail.com, 123](1)" classname="Academy.ValidateHomePage" time="0.851"/>
-  <testcase name="ValidateLogIn[ajit1.biswal@gmail.com, 123](2)" classname="Academy.ValidateHomePage" time="2.051"/>
+  <testcase name="ValidateLogIn[ajit1.biswal@gmail.com, 123](2)" classname="Academy.ValidateHomePage" time="3.146">
+    <failure message="Element &lt;a href=&quot;https://rahulshettyacademy.com/sign_in/&quot;&gt; is not clickable at point (1242,16) because another element &lt;div class=&quot;listbuilder-popup-content&quot;&gt; obscures it&#10;Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;&#10;System info: host: &apos;LAPTOP-CSB2KRLH&apos;, ip: &apos;192.168.1.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_265&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201012085804, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 2788, moz:profile: C:\Users\Ajit\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 51766302-f1ce-4631-9e1f-e9b8e1e3dd59" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+Element <a href="https://rahulshettyacademy.com/sign_in/"> is not clickable at point (1242,16) because another element <div class="listbuilder-popup-content"> obscures it
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'LAPTOP-CSB2KRLH', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_265'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20201012085804, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 2788, moz:profile: C:\Users\Ajit\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 51766302-f1ce-4631-9e1f-e9b8e1e3dd59
+	at Academy.ValidateHomePage.ValidateLogIn(ValidateHomePage.java:37)
+]]></failure>
+    <system-err><![CDATA[1653714110486	Marionette	INFO	Stopped listening on port 60120
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1031: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Ajit\AppData\Local\Temp\rust_mozprofileW7h2CG\protections.sqlite
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1031: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Ajit\AppData\Local\Temp\rust_mozprofiley6Bp89\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+]]></system-err>
+  </testcase>
+  <testcase name="validateAppTitle" classname="Academy.ValidateTitle" time="0.066"/>
+  <testcase name="validateAppTitle" classname="Academy.ValidateTitle" time="0.035">
+    <system-err><![CDATA[JavaScript error: resource://gre/modules/Sqlite.jsm, line 1031: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Ajit\AppData\Local\Temp\rust_mozprofileg6whFQ\protections.sqlite
+1653714082425	Marionette	INFO	Stopped listening on port 59866
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1031: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Ajit\AppData\Local\Temp\rust_mozprofileJHKxug\protections.sqlite
+1653714083441	Marionette	INFO	Stopped listening on port 59865
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1031: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Ajit\AppData\Local\Temp\rust_mozprofileDHXwQc\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1653714086811	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Ajit\\AppData\\Local\\Temp\\rust_mozprofiley6Bp89"
+1653714086812	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Ajit\\AppData\\Local\\Temp\\rust_mozprofile6x1rF6x5u3"7
+14086813	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Ajit\\AppData\\Local\\Temp\\rust_mozprofileW7h2CG"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1653714091688	Marionette	INFO	Listening on port 60120
+1653714091761	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 28, 2022 10:31:31 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1653714092012	Marionette	INFO	Listening on port 60121
+1653714092190	Marionette	INFO	Listening on port 60119
+1653714092269	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 28, 2022 10:31:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1653714092665	Marionette	WARN	TLS certificate errors will be ignored for this session
+May 28, 2022 10:31:32 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateHeader" classname="Academy.ValidateTitle" time="0.092"/>
+  <testcase name="validateHeader" classname="Academy.ValidateTitle" time="0.016"/>
+  <testcase name="basePageNavigation" classname="Academy.ValidateNavigationBar" time="0.142">
+    <system-err><![CDATA[1653714082006	Marionette	INFO	Stopped listening on port 59864
+]]></system-err>
+  </testcase>
+  <testcase name="basePageNavigation" classname="Academy.ValidateNavigationBar" time="0.058">
+    <system-err><![CDATA[1653714110295	Marionette	INFO	Stopped listening on port 60121
+]]></system-err>
+  </testcase>
 </testsuite>

@@ -4,11 +4,10 @@
   <listeners>
     <listener class-name="Academy.Listeners"/>
   </listeners>
-  <test name="Validate title(failed)" parallel="tests">
+  <test name="Validate Home Page(failed)" parallel="tests">
     <classes>
       <class name="Academy.ValidateTitle">
         <methods>
-          <include name="validateAppTitle"/>
           <include name="initialize"/>
           <include name="teardown"/>
         </methods>
@@ -16,6 +15,7 @@
       <class name="Academy.ValidateHomePage">
         <methods>
           <include name="teardown"/>
+          <include name="ValidateLogIn" invocation-numbers="0 0"/>
           <include name="initialize"/>
         </methods>
       </class> <!-- Academy.ValidateHomePage -->
@@ -26,5 +26,5 @@
         </methods>
       </class> <!-- Academy.ValidateNavigationBar -->
     </classes>
-  </test> <!-- Validate title(failed) -->
+  </test> <!-- Validate Home Page(failed) -->
 </suite> <!-- Failed suite [Suite] -->

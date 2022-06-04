@@ -1,5 +1,5 @@
-resources\ExtentReporterNG.class
 pageObjects\LandingPage.class
 pageObjects\LoginPage.class
 resources\Base.class
 Academy\App.class
+resources\ExtentReporterNG.class

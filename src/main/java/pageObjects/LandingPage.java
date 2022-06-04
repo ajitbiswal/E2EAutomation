@@ -21,8 +21,9 @@ public class LandingPage {
 	
 	
 	
-	
+	//Constructor created to receive the driver as argumant
 	public LandingPage(WebDriver driver) {
+		//this.driver is the variable created inside the class
 		this.driver=driver;
 	}
 
