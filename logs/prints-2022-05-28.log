@@ -1,0 +1,8 @@
+10:24:58.894 [TestNG] INFO  resources.Base - Driver is initialized
+10:25:17.180 [TestNG] INFO  resources.Base - sucessfully validated
+10:25:33.190 [TestNG] INFO  resources.Base - Navigated to home page
+10:25:33.215 [TestNG] INFO  resources.Base - sucessfully validated
+10:25:33.232 [TestNG] INFO  resources.Base - sucessfully validated
+10:31:02.824 [TestNG] INFO  resources.Base - Driver is initialized
+10:31:21.824 [TestNG] INFO  resources.Base - Navigated to home page
+10:31:21.892 [TestNG] INFO  resources.Base - sucessfully validated
