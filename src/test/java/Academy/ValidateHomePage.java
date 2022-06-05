@@ -15,7 +15,7 @@ import pageObjects.LoginPage;
 import resources.Base;
 
 //Inheriting the base class
-public class ValidateHomePage extends Base {
+public class ValidateHomePage extends Base{
 	public WebDriver driver;
 	public static Logger log=LogManager.getLogger(Base.class.getName());
 	
