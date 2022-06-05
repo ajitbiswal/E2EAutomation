@@ -32,6 +32,11 @@ public class Pratice extends Base{
 		System.out.println("this is second test");
 	}
 	
+	@Test
+	public void ValidateLogIn3(String username,String password) throws IOException {
+		System.out.println("this is third test");
+	}
+	
 	
 	
 	
